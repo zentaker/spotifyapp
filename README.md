@@ -31,3 +31,9 @@ getQuery(query: string) {
 
 - Pipes para filtrar ciertos resultados obtenidos 
 la imagen de los artistas lo validemos antes de mostrarla 
+
+- loading que le diga a los usuarios que espere mientras la data viene del servidor
+solamente aparesca cuando estamos cargando informacion
+se va a controlar con un ngIf
+
+- pagina del artista 

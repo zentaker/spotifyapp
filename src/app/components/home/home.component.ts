@@ -13,15 +13,22 @@ export class HomeComponent implements OnInit {
 
   nuevasCanciones: any[] = [];
 
+  // creamos una nueva propiedad
+  loading: boolean;
+
  
 
   constructor(private spotify: SpotifyService) {
+    //inicializar el loading primero
+    this.loading = true;
 
     
     this.spotify.getNewReleases()
          .subscribe(( data:any) => {
           
            this.nuevasCanciones = data;
+           //cuando ya tenemos la data 
+           this.loading = false;
       
     })
     

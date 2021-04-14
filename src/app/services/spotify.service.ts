@@ -17,7 +17,7 @@ export class SpotifyService {
 
     //realizar la peticion
     const headers = new HttpHeaders({
-      'Authorization': 'Bearer BQAGaim1U0nY6igR3iRbNsqX5KYbzXc0d8C26IS2U_Nckhkf2WNuMwZNTXjlX-noXoHXcvbE5jIa4Wu0CPk'
+      'Authorization': 'Bearer BQAsGrHtyfviLZf-2XnbdVWJO4qlrFR0rUdHpoFU9PpRnMBuaDGvqFKTVdNpxHjekCUvuMTrjucF6kR2LwI'
     });
 
     //ejecuta el obserbable
