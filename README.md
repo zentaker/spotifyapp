@@ -3,7 +3,7 @@
 
 El servicio que genera hacer una peticion a una api 
 
-``
+```
 getQuery(query: string) {
     const url = `https://api.spotify.com/v1/${query}`;
 
@@ -27,7 +27,7 @@ getQuery(query: string) {
 
   }
 
-  ``
+  ```
 
 - Pipes para filtrar ciertos resultados obtenidos 
 la imagen de los artistas lo validemos antes de mostrarla 
