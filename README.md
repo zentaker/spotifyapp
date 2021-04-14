@@ -34,6 +34,16 @@ la imagen de los artistas lo validemos antes de mostrarla
 
 - loading que le diga a los usuarios que espere mientras la data viene del servidor
 solamente aparesca cuando estamos cargando informacion
-se va a controlar con un ngIf
+se va a controlar con un ngIf'
+
+
+# como hacer un query con una busqueda personalizada?
 
 - pagina del artista 
+
+
+La logica de funcionamiento:
+1. mediante routes se pasa el id del artista (app.routes.ts)
+2. mediante un activatedroutes se obtiene el id de la ruta (artista.component.ts)
+3. se envia al servicio el id obtenido (artista.component.ts)
+4. el servicio realiza el query con el id obtenido (spotify.service.ts)
