@@ -1,3 +1,12 @@
+# EMpresa para vener playlist y experiencias musicales para restaurantes y centros de atencion 
+La musica inspira buscar generar una experiencia sensorial a la audiencia 
+
+- crear playlist con el api de spotify
+- reproducir en los establecimientos
+
+
+
+
 ![spotyapp2](https://user-images.githubusercontent.com/46875264/114787552-a31fb300-9d45-11eb-8eaa-e4f7f98f9e18.png)
 ![spotyapp](https://user-images.githubusercontent.com/46875264/114787612-b599ec80-9d45-11eb-8e2e-6436e8636ab7.png)
 
